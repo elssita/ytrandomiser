@@ -1,0 +1,23 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: YT video randomiser
+  description: A web app which makes a search on YT for fitness video, takes the first N results, randomly picks one and opens the YT page of video (redirects).
+servers:
+  - url: http://ytrandomiser.io/
+paths:
+  /videos:
+    get:
+      summary: Redirect to a random video
+      parameters:
+        - name: keywords
+          in: query
+          description: keywords in the query to obtain the list of videos. Keywords delimited by a comma
+          required: true
+          schema:
+            type: string
+      responses:
+        '302':
+          description: Redirect to the chosen youtube video
+          
+          
