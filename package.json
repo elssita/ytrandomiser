@@ -1,0 +1,23 @@
+{
+  "name": "ytrandomiser",
+  "version": "1.0.0",
+  "description": "get a random YT video with one click",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elssita/ytrandomiser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elssita/ytrandomiser/issues"
+  },
+  "homepage": "https://github.com/elssita/ytrandomiser#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
